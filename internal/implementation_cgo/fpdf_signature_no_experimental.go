@@ -4,9 +4,9 @@
 package implementation_cgo
 
 import (
-	pdfium_errors "github.com/klippa-app/go-pdfium/errors"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	pdfium_errors "github.com/YuShuanHsieh/go-pdfium/errors"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDF_GetSignatureCount returns the total number of signatures in the document.

@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/klippa-app/go-pdfium/enums"
+import "github.com/YuShuanHsieh/go-pdfium/enums"
 
 type AttachmentValue struct {
 	Key         string

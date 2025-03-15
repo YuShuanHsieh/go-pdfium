@@ -8,8 +8,8 @@ import "C"
 import (
 	"errors"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFPage_SetMediaBox sets the "MediaBox" entry to the page dictionary.

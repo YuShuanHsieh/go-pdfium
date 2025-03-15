@@ -12,9 +12,9 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFDest_GetView returns the view (fit type) for a given dest.

@@ -11,9 +11,9 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 )
 
 // FPDF_LoadMemDocument64 opens and load a PDF document from memory.

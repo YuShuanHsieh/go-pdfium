@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/klippa-app/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium"
 )
 
 var skipMethods = map[string]bool{

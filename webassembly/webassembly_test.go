@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/klippa-app/go-pdfium/shared_tests"
-	"github.com/klippa-app/go-pdfium/webassembly"
+	"github.com/YuShuanHsieh/go-pdfium/shared_tests"
+	"github.com/YuShuanHsieh/go-pdfium/webassembly"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

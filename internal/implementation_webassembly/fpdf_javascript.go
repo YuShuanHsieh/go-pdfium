@@ -4,8 +4,8 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFDoc_GetJavaScriptActionCount returns the number of JavaScript actions in the given document.

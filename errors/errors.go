@@ -11,7 +11,7 @@ var (
 	ErrSecurity                 = errors.New("5: invalid encryption")
 	ErrPage                     = errors.New("6: incorrect page")
 	ErrUnexpected               = errors.New("unexpected error")
-	ErrExperimentalUnsupported  = errors.New("this functionality is only supported when using the pdfium_experimental build flag, see https://github.com/klippa-app/go-pdfium#experimental for more information")
+	ErrExperimentalUnsupported  = errors.New("this functionality is only supported when using the pdfium_experimental build flag, see https://github.com/YuShuanHsieh/go-pdfium#experimental for more information")
 	ErrWindowsUnsupported       = errors.New("this functionality is Windows only")
 	ErrUnsupportedOnWebassembly = errors.New("this functionality is not supported on Webassembly")
 )

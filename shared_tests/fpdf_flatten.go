@@ -1,7 +1,7 @@
 package shared_tests
 
 import (
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

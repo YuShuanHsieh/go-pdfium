@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/klippa-app/go-pdfium/enums"
+import "github.com/YuShuanHsieh/go-pdfium/enums"
 
 type FPDF_RenderPageBitmapWithColorScheme_Start struct {
 	RenderStatus enums.FPDF_RENDER_STATUS

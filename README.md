@@ -1,12 +1,12 @@
 # go-pdfium
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/klippa-app/go-pdfium/pdfium.svg)](https://pkg.go.dev/github.com/klippa-app/go-pdfium)
+[![Go Reference](https://pkg.go.dev/badge/github.com/YuShuanHsieh/go-pdfium/pdfium.svg)](https://pkg.go.dev/github.com/YuShuanHsieh/go-pdfium)
 [![Build Status][build-status]][build-url]
-[![codecov](https://codecov.io/gh/klippa-app/go-pdfium/branch/main/graph/badge.svg?token=WoIlW9RbfH)](https://codecov.io/gh/klippa-app/go-pdfium)
+[![codecov](https://codecov.io/gh/YuShuanHsieh/go-pdfium/branch/main/graph/badge.svg?token=WoIlW9RbfH)](https://codecov.io/gh/YuShuanHsieh/go-pdfium)
 
-[build-status]:https://github.com/klippa-app/go-pdfium/workflows/Go/badge.svg
+[build-status]:https://github.com/YuShuanHsieh/go-pdfium/workflows/Go/badge.svg
 
-[build-url]:https://github.com/klippa-app/go-pdfium/actions
+[build-url]:https://github.com/YuShuanHsieh/go-pdfium/actions
 
 :rocket: *Easy to use PDF library using Go and PDFium* :rocket:
 
@@ -175,8 +175,8 @@ package renderer
 import (
 	"log"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/single_threaded"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/single_threaded"
 )
 
 // Be sure to close pools/instances when you're done with them.
@@ -208,7 +208,7 @@ workers. Example:
 package main
 
 import (
-	"github.com/klippa-app/go-pdfium/multi_threaded/worker"
+	"github.com/YuShuanHsieh/go-pdfium/multi_threaded/worker"
 )
 
 func main() {
@@ -230,8 +230,8 @@ package renderer
 import (
 	"log"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/multi_threaded"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/multi_threaded"
 )
 
 // Be sure to close pools/instances when you're done with them.
@@ -268,8 +268,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 )
 
 // Insert the single/multi-threaded init() here.
@@ -326,8 +326,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 )
 
 // Insert the single/multi-threaded init() here.
@@ -473,8 +473,8 @@ package renderer
 import (
 	"log"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/webassembly"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/webassembly"
 )
 
 // Be sure to close pools/instances when you're done with them.
@@ -507,8 +507,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 )
 
 // Insert the webassembly init() here.
@@ -565,8 +565,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 )
 
 // Insert the webassembly init() here.

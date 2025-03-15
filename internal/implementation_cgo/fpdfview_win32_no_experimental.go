@@ -4,10 +4,10 @@
 package implementation_cgo
 
 import (
-	pdfium_errors "github.com/klippa-app/go-pdfium/errors"
+	pdfium_errors "github.com/YuShuanHsieh/go-pdfium/errors"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDF_SetPrintMode sets printing mode when printing on Windows.

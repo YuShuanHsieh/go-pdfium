@@ -15,8 +15,8 @@ import (
 	"github.com/hashicorp/go-plugin"
 	pool "github.com/jolestar/go-commons-pool/v2"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/commons"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/internal/commons"
 )
 
 type worker struct {

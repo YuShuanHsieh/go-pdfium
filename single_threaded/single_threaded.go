@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/implementation_cgo"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/internal/implementation_cgo"
 	"sync"
 	"time"
 )

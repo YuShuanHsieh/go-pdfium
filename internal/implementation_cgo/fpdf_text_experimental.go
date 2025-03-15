@@ -10,9 +10,9 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 )
 
 // FPDFText_GetFontInfo returns the font name and flags of a particular character.

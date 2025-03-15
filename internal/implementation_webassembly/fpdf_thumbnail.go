@@ -3,8 +3,8 @@ package implementation_webassembly
 import (
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFPage_GetDecodedThumbnailData returns the decoded data from the thumbnail of the given page if it exists.

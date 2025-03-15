@@ -5,9 +5,9 @@ package implementation_cgo
 import "C"
 import (
 	"errors"
-	pdfium_errors "github.com/klippa-app/go-pdfium/errors"
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
+	pdfium_errors "github.com/YuShuanHsieh/go-pdfium/errors"
+	"github.com/YuShuanHsieh/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 
 	"github.com/google/uuid"
 )

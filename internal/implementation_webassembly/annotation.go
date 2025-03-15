@@ -1,7 +1,7 @@
 package implementation_webassembly
 
 import (
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 
 	"github.com/google/uuid"
 )

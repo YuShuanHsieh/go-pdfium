@@ -9,8 +9,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"

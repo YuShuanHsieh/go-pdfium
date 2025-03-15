@@ -3,7 +3,7 @@ package implementation_webassembly
 import (
 	"github.com/google/uuid"
 
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 )
 
 func (p *PdfiumImplementation) registerGlyphPath(glyphPath *uint64) *GlyphPathHandle {

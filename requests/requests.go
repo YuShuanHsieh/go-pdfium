@@ -3,7 +3,7 @@ package requests
 import (
 	"io"
 
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 )
 
 type OpenDocument struct {

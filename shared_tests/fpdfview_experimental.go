@@ -8,13 +8,13 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/internal/implementation_webassembly"
+	"github.com/YuShuanHsieh/go-pdfium/internal/implementation_webassembly"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

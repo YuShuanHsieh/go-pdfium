@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 )
 
 type FPDFPage_SetMediaBox struct {

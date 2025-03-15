@@ -14,10 +14,10 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/internal/image/image_jpeg"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/internal/image/image_jpeg"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // getPageSize returns the points size of a page given the PDFium page index.

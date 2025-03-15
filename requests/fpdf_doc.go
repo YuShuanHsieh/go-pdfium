@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 )
 
 type FPDFBookmark_GetFirstChild struct {

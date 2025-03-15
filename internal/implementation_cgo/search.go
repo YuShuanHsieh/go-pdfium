@@ -6,7 +6,7 @@ package implementation_cgo
 import "C"
 import (
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 )
 
 func (p *PdfiumImplementation) registerSearch(search C.FPDF_SCHHANDLE, documentHandle *DocumentHandle) *SearchHandle {

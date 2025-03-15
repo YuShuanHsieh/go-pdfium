@@ -3,11 +3,11 @@ package implementation_webassembly
 import (
 	"errors"
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDF_ImportPages imports some pages from one PDF document to another one.

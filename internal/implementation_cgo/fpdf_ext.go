@@ -59,9 +59,9 @@ static inline void FSDK_SetLocaltimeFunction_SET_GO_METHOD() {
 */
 import "C"
 import (
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFDoc_GetPageMode returns the document's page mode, which describes how the document should be displayed when opened.

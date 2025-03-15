@@ -5,7 +5,7 @@ package implementation_cgo
 import "C"
 import (
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 )
 
 func (p *PdfiumImplementation) registerPageRange(pageRange C.FPDF_PAGERANGE, documentHandle *DocumentHandle) *PageRangeHandle {

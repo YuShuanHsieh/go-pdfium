@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/internal/implementation_webassembly"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/internal/implementation_webassembly"
+	"github.com/YuShuanHsieh/go-pdfium/references"
 
 	"github.com/tetratelabs/wazero/api"
 )

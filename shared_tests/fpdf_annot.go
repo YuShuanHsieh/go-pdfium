@@ -7,11 +7,11 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/YuShuanHsieh/go-pdfium/enums"
+	"github.com/YuShuanHsieh/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/structs"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
@@ -1601,7 +1601,7 @@ var _ = Describe("fpdf_annot", func() {
 
 			FPDFAnnot_SetURI, err := PdfiumInstance.FPDFAnnot_SetURI(&requests.FPDFAnnot_SetURI{
 				Annotation: FPDFPage_GetAnnot.Annotation,
-				URI:        "https://github.com/klippa-app/go-pdfium",
+				URI:        "https://github.com/YuShuanHsieh/go-pdfium",
 			})
 			Expect(err).To(BeNil())
 			Expect(FPDFAnnot_SetURI).To(Equal(&responses.FPDFAnnot_SetURI{}))
@@ -1623,7 +1623,7 @@ var _ = Describe("fpdf_annot", func() {
 
 			FPDFAnnot_SetURI, err := PdfiumInstance.FPDFAnnot_SetURI(&requests.FPDFAnnot_SetURI{
 				Annotation: FPDFPage_GetAnnot.Annotation,
-				URI:        "https://github.com/klippa-app/go-pdfium",
+				URI:        "https://github.com/YuShuanHsieh/go-pdfium",
 			})
 			Expect(err).To(MatchError("could net set uri"))
 			Expect(FPDFAnnot_SetURI).To(BeNil())

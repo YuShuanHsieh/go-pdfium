@@ -13,7 +13,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/klippa-app/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium"
 )
 
 type GenerateDataMethod struct {

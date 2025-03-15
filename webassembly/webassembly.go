@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/implementation_webassembly"
-	"github.com/klippa-app/go-pdfium/webassembly/imports"
+	"github.com/YuShuanHsieh/go-pdfium"
+	"github.com/YuShuanHsieh/go-pdfium/internal/implementation_webassembly"
+	"github.com/YuShuanHsieh/go-pdfium/webassembly/imports"
 
 	"github.com/google/uuid"
 	pool "github.com/jolestar/go-commons-pool/v2"

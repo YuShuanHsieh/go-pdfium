@@ -3,8 +3,8 @@ package implementation_webassembly
 import (
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/responses"
 )
 
 // FPDFDoc_GetPageMode returns the document's page mode, which describes how the document should be displayed when opened.

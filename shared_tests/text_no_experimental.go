@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/YuShuanHsieh/go-pdfium/references"
+	"github.com/YuShuanHsieh/go-pdfium/requests"
 )
 
 var _ = Describe("text", func() {
